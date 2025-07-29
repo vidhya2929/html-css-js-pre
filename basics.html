@@ -1,0 +1,87 @@
+<!-- HTML =>HyperText MarkUp Language -->
+ <!-- used to create webpages -->
+  <!-- defines the structure and content of a webpage -->
+<!-- semantic tags clearly describe their meaning in a human-and machine-readable way -->
+ <!-- eg: <article>,<header>,<footer>,<section>,<nav>-->
+<!-- div => block-level for layout structure -->
+ <!--span => inline element  for inline text styling -->
+
+ <!-- id is unique -->
+  <!-- class can be reused on multiple elements -->
+   <!-- void element  => elements that do not have a closing tag -->
+    <!-- eg:br, input,img,hr -->
+<!-- "alt" in img tag =>
+ provides the alternative text if the image fails to load and helps with accessibility -->
+<!-- data attribute => custom attribute used to store extra information -->
+ <!-- localStorage => persists data with no expiration -->
+  <!-- sessionStorage => data cleared when tab is closed -->
+   <!-- cookies => small pieces of data stored with expiration and sent to server with every request -->
+
+
+
+ <!-- CSS => Cascading Style Sheets => used to style HTML content (layout,color,font etc..)-->
+  <!-- ways to add CSS to HTML -->
+  <!-- inline <p "style=" "color:red;">-->
+   <!-- Internal <style> tag in <head>-->
+    <!-- external => linking a .css file-->
+
+
+<!-- 
+    CSS BOX MODEL
+    Every element is a box:
+    Content -> Padding -> Border -> Margin
+
+-->
+
+<!-- position -->
+ <!-- 
+    relative -> positioned relative to its normal position
+    absolute -> positioned relative to the narest posiitoned ancestor
+    fixed ->positioned relative to the viewport
+    sticky -> sticks to a position while scrolling
+ -->
+<!-- Psuedo classes and Pseudo elements
+psuedo class: hover,focus,nth-child()
+psuedo element : before,after 
+
+-->
+
+<!-- flexbox =>layout model that allow easy alignment and distribution of items in a container -->
+ <!-- flex-box one dimensional -->
+  <!-- grid 2 dimensional -->
+
+<!-- z-index => controls stacking order higher z-index appears on the top -->
+ <!-- visisbility: hidden => element is invisible but still takes space -->
+
+
+
+<!-- javascript is a scripting language used to create dynamic web contents -> like interactive forms, animations,and real-time updates -->
+
+<!-- var- function scoped ,hoisted
+ let - block-scoped 
+ const -cannot be reassigned-->
+ <!-- hoisting
+  variables and function declarations are moved to the top of their scope before execution -->
+
+
+  <!-- ==    compares values with type coercion -->
+   <!-- ===  compares both value and type(strict equality) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+</head>
+<body>
+    <button onclick="sayHi()">Click Me</button>
+    <p id="demo">Hello</p>
+    <button onclick="changeText()">Change</button>
+<!-- form validation -->
+ <input type="number" id="ageInput">
+ <button onclick="checkAge()">submit</button>
+    <script src="basic.js"></script>
+</body>
+</html>
+
+  
