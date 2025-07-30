@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial,sans-serif;
+}
+#toggleButton{
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+.sidebar.active{
+  left: 0;
+}
+.sidebar h3{
+  margin-bottom: 10px;
+}
+.filter2{
+  margin-top: 20px;
+}
+.filter2 label{
+  display: block;
+  margin: 5px 0;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: none;
+  z-index: 900;
+}
+.overlay.active{
+  display: block;
+}
+.prolist{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.product{
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+}
+.filteroption{
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filteroption input[type="checkbox"]{
+  display: none;
+}
+.filteroption span{
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.filteroption input[type="checkbox"]:checked + span{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px #000;
+}

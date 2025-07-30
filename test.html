@@ -4,8 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test</title>
+  <link rel="stylesheet" href="test.css">
 </head>
 <body>
+  <button id="toggleButton">Filter</button>
+  <div class="sidebar" id="sidebar">
+<h3>Filters</h3>
+<div class="filter2">
+  <h4>Category</h4>
+  <label class="filteroption">
+    <input type="checkbox" class="checkk" value="tshirt"><span>Tshirt</span>
+    </label><br>
+    <label class="filteroption"><input type="checkbox" class="checkk" value="Jeans"><span>Jeans</span></label><br>
+    <label class="filteroption"><input type="checkbox" class="checkk" value="Jacket"><span>Jacket</span></label><br>
+</div>
+  </div>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="prolist" id="prolist">
+  <div class="product" data-category="tshirt">Red T-shirt</div>
+  <div class="product" data-category="jeans">Blue Jeans</div>
+  <div class="product" data-category="jacket">Leather Jacket</div>
+  <div class="product" data-category="tshirt">White T-shirt</div>
+  <div class="product" data-category="jeans">Black Jeans</div>
+</div>
+
   <script src="test.js"></script>
 </body>
 </html>

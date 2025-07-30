@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter sidebar with Overlay</title>
+  <link rel="stylesheet" href="checkbox.css">
+</head>
+<body>
+  <button id="toggleBtn">Filters</button>
+  <div class="sidebar" id="sidebar">
+    <h3>FILTERS</h3>
+    <div class="filterSection">
+      <h4>Category</h4>
+      <label class="filterOption"><input type="checkbox" class="cateFilter" value="tshirt"><span>T-shirt</span></label><br>
+      <label class="filterOption"><input type="checkbox" class="cateFilter" value="jeans"><span>Jeans</span></label><br>
+      <label class="filterOption"><input type="checkbox" class="cateFilter" value="jacket"><span>Jacket</span></label><br>
+      <!-- label -> it is clickable --clicking it also checks/uncheks the checkbox inside. -->
+       <!-- <span></span> is the visisble Text/button.we apply styles and change bg color based on the checkbox state -->
+    </div>
+  </div>
+
+  <!-- Dark Overlay -->
+   <div class="overlay" id="overlay"></div>
+
+   <!-- Product Grid-->
+    <div class="proList" id="proList">
+      <div class="product" data-category="tshirt">Red T-shirt</div>
+      <!-- It is a custom data attribute used to store extra information(metadata) directly in the HTML element, which JavaScript or CSS can access and use -->
+      <div class="product" data-category="jeans">Blue Jeans</div>
+      <div class="product" data-category="jacket">Leather Jacket</div>
+      <div class="product" data-category="tshirt">White T-shirt</div>
+      <div class="product" data-category="jeans">Black Jeans</div>
+    </div>
+  <script src="checkbox.js"></script>
+</body>
+</html>

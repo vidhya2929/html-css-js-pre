@@ -1,0 +1,133 @@
+Here’s a list of **JavaScript problems and mini-tasks** specifically chosen to improve your **website cloning skills**. These problems simulate features commonly seen in real websites like **Myntra, Amazon, Flipkart, DoorDash, etc.**
+
+---
+
+## ✅ Beginner – Core Website Interactions
+
+### 1. **Toggle Navbar / Sidebar**
+
+> ✅ Problem: Show/hide a sidebar when clicking a menu icon (☰).
+
+* Use `classList.toggle()` and `addEventListener`.
+
+---
+
+### 2. **Show/Hide Password Field**
+
+> ✅ Problem: Create an input field with a button to show/hide password.
+
+* Practice with `input.type`, `onclick`, etc.
+
+---
+
+### 3. **Tabs (Like Filter Tabs)**
+
+> ✅ Problem: Switch content by clicking on different tabs.
+
+* Practice adding/removing `active` classes.
+
+---
+
+### 4. **Dropdown Menu**4. **Dropdown Menu**
+
+> ✅ Problem: Show a dropdown on hover/click.
+
+* Mimics navigation bars like on Amazon/Myntra.
+
+---
+
+### 5. **Image Carousel / Slider**
+
+> ✅ Problem: Automatically or manually slide images.
+
+* Required in homepage banner clones.
+
+---
+
+## ✅ Intermediate – Product & Filter Logic
+
+### 6. **Filter Products by Category**
+
+> ✅ Problem: Show only selected category of items (Men/Women/Kids).
+
+* Practice DOM filtering using `data-*` attributes and `.filter()`.
+
+---
+
+### 7. **Search Bar with Suggestions**
+
+> ✅ Problem: As you type, suggestions appear from a list.
+
+* Good for cloning product search in e-commerce.
+
+---
+
+### 8. **Sort Products by Price**
+
+> ✅ Problem: Sort a list of product cards (DOM elements) by price low→high or high→low.
+
+---
+
+### 9. **Checkbox Filtering**
+
+> ✅ Problem: When a checkbox (like “Brand”) is selected, only matching products show.
+
+* You'll use `Array.prototype.filter()` and class selectors.
+
+---
+
+### 10. **Add to Cart Functionality**
+
+> ✅ Problem: Add product cards to a virtual cart and show total count and price.
+
+---
+
+## ✅ Advanced – User Experience & Logic
+
+### 11. **Sticky Header on Scroll**
+
+> ✅ Problem: Make header stay at the top when scrolling.
+
+* Use `window.onscroll`.
+
+---
+
+### 12. **Scroll to Top Button**
+
+> ✅ Problem: Show a button only when scrolled down and scroll back to top when clicked.
+
+---
+
+### 13. **Like / Favorite Toggle**
+
+> ✅ Problem: Click heart icon to add/remove from favorites.
+
+---
+
+### 14. **Product Zoom on Hover**
+
+> ✅ Problem: Zoom into a product image on mouse hover using JS or CSS class.
+
+---
+
+### 15. **Modal (Popup) for Install App / Signup**
+
+> ✅ Problem: Clicking a button shows a custom modal (not `alert()`).
+
+---
+
+## 💡 Bonus Problems (Website Polish)
+
+* Infinite scroll (load more on scroll)
+* Loader spinner before content appears
+* Custom range slider for discount filter
+* Countdown timer for deals
+* Product quantity increment/decrement buttons
+
+---
+
+If you want **code for any of these**, just tell me:
+
+> "Give me the code for \[problem name]"
+
+Would you like me to group some of these into a **project-based learning path** (like cloning a full Myntra filters page with JS)?

@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+}
+#toggleBtn{
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+.sidebar.active{
+  left: 0;
+}
+.sidebar h3{
+  margin-bottom: 10px;
+}
+.filterSection{
+  margin-top: 20px;
+}
+.filterSection label{
+  display: block;
+  margin: 5px 0;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: none;
+  z-index: 900;
+}
+.overlay.active{
+  display: block;
+}
+.proList{
+ margin: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ /* to control whether the flex item should stay in a single line or wrap onto multiple lines when there isn't enough space */
+ /* nowrap => Default.All items stay in one line(even if they overflow) */
+ /* wrap => Items wrap onto multiple lines from top to bottom(left to right) */
+ /* wrap-reverse => wrap onto multiple lines, but in reverse order(bottom to top) */
+ gap: 15px;
+}
+.product{
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+}
+.filterOption{
+  display: inline-block;  /*make each label sit side by side like buttons*/
+  padding: 8px 16px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* hiding the default checkbox */
+.filterOption input[type="checkbox"]{
+  display: none;
+}
+.filterOption span{
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #333;
+  transition: all 0.3s ease;
+
+}
+.filterOption input[type="checkbox"]:checked + span{
+  /* :checked targets when the checkbox is selected */
+  /* + span means selecting the "span" immediately after the checkbox */
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px #000;
+}
