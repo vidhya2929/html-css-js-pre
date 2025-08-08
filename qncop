@@ -131,3 +131,198 @@ If you want **code for any of these**, just tell me:
 > "Give me the code for \[problem name]"
 
 Would you like me to group some of these into a **project-based learning path** (like cloning a full Myntra filters page with JS)?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Great move, Vidhya! Practicing basic problems is the best way to build strong JavaScript foundations. Here's a handpicked list of **basic JavaScript problems** — **without answers** — to help you understand **syntax, operators, functions, conditionals, loops, and arrays**.
+
+---
+
+## 🟢 BASICS: Variables, Data Types, and Operators
+
+1. Declare a variable `name` and assign your name to it. Print it to the console.
+2. Add two numbers and log the result.
+3. Write a program to find the square of a number.
+4. Create two variables and swap their values.
+5. Write a program to check if a number is even or odd.
+6. Calculate the area of a rectangle given width and height.
+7. Find the average of three numbers.
+8. Use `typeof` to find the type of any 3 different variables.
+
+---
+
+## 🟡 CONDITIONALS (if/else, switch)
+
+9. Write a program to check if a person is eligible to vote (age ≥ 18).
+10. Check whether a number is positive, negative, or zero.
+11. Find the largest among three numbers.
+12. Given a day number (1 to 7), print the day name using `switch`.
+13. Write a program to check if a year is a leap year.
+
+---
+
+## 🔁 LOOPS (for, while)
+
+14. Print numbers from 1 to 10 using a loop.
+15. Print even numbers from 1 to 20.
+16. Print the multiplication table of 5.
+17. Find the sum of numbers from 1 to 100.
+18. Write a program to count backwards from 10 to 1.
+19. Calculate factorial of a number using a loop.
+
+---
+
+## 🧠 FUNCTIONS
+
+20. Create a function that takes two numbers and returns their sum.
+21. Create a function to check whether a number is prime.
+22. Write a function that returns the square of a number.
+23. Create a function to convert Celsius to Fahrenheit.
+24. Write a function to find the minimum of three numbers.
+
+---
+
+## 📦 ARRAYS
+
+25. Create an array of 5 fruits and print each one using a loop.
+26. Find the largest number in an array.
+27. Calculate the sum of all numbers in an array.
+28. Count how many times a specific value appears in an array.
+29. Reverse the elements of an array manually (without using `reverse()`).
+30. Check if a value exists in an array.
+
+---
+
+## ✍️ STRING BASICS
+
+31. Check if a string contains the word "JavaScript".
+32. Convert a string to uppercase and lowercase.
+33. Find the length of a given string.
+34. Replace a word in a string with another word.
+35. Get the first and last character of a string.
+
+---
+
+Would you like these in PDF/Doc format for printing? Or want a daily set of problems to practice with solutions the next day?
+
+
+
+
+
+
+
+
+
+
+Perfect, Vidhya! Here’s a curated list of **small project ideas** using **just HTML and JavaScript** (no frameworks, no CSS required unless you want to style). These are great for beginners to **practice logic, DOM manipulation, events, and storage**.
+
+---
+
+## 🟢 BEGINNER PROJECTS (HTML + JS Only)
+
+### 1. ✅ **Click Counter**
+
+* Every time you click a button, the number increases.
+* Add a reset button.
+* Practice: `variables`, `eventListener`, `innerText`.
+
+---
+
+### 2. ✅ **Even or Odd Checker**
+
+* User enters a number in an input.
+* Clicks a button to check.
+* Display: "Even" or "Odd".
+* Practice: `if/else`, `modulo`, `input.value`.
+
+---
+
+### 3. ✅ **Simple Calculator**
+
+* Take 2 inputs: num1 and num2.
+* Buttons for `+`, `-`, `*`, `/`.
+* Show result when a button is clicked.
+* Practice: `functions`, `DOM`, `parseInt`.
+
+---
+
+### 4. ✅ **Temperature Converter**
+
+* Input in Celsius → shows Fahrenheit.
+* Or input in Fahrenheit → shows Celsius.
+* Practice: `functions`, `math`, `events`.
+
+---
+
+### 5. ✅ **To-Do List (Basic)**
+
+* Add item → it appears in a list.
+* Click a task → it gets deleted.
+* Optional: Save list in `localStorage`.
+* Practice: `createElement`, `appendChild`, `localStorage`.
+
+---
+
+### 6. ✅ **Prime Number Checker**
+
+* Input a number → check if it's prime.
+* Use the `isPrime()` function you wrote.
+* Practice: loops, conditionals, user input.
+
+---
+
+### 7. ✅ **Typing Speed Tester**
+
+* Show a random sentence.
+* Measure how long user takes to type it.
+* Calculate words per minute (WPM).
+* Practice: `Date`, `timers`, `string methods`.
+
+---
+
+### 8. ✅ **Random Quote Generator**
+
+* Click a button → shows a new quote.
+* Quotes can be stored in an array.
+* Practice: `arrays`, `Math.random()`, DOM.
+
+---
+
+### 9. ✅ **Digital Clock**
+
+* Show live time (HH\:MM\:SS) updating every second.
+* Practice: `Date`, `setInterval`, `textContent`.
+
+---
+
+### 10. ✅ **Guess the Number Game**
+
+* Computer picks a random number (1-100).
+* User guesses → tells if it's too high, too low, or correct.
+* Track number of tries.
+* Practice: `Math.random()`, loops, conditionals.
+
+---
+
+Would you like to start building one of these **step-by-step**?
+I can give the HTML + JavaScript code for any project above — just pick one!
